@@ -72,7 +72,6 @@ for row in rows[1:]:
     wind_degree_m_kts = cells[16].text.strip()
     wind_lst = cells[17].text.strip().split(' ') if cells[17].text.strip() != "" else ["","0"]
     head_or_tailwind_kts = int("-"+wind_lst[1]) if wind_lst[0] == "⮝" else int(wind_lst[1])
-    print(wind_lst, head_or_tailwind_kts)
 
     ident_freq_dist_bearing = cells[18].text.strip()
     fpln.append({"ident": ident, "name": name, "procedure": procedure, "hdg": hdg, "distance_nm": distance_nm, "wind_degree_m_kts": wind_degree_m_kts, "head_or_tailwind_kts": head_or_tailwind_kts, "ident_freq_dist_bearing": ident_freq_dist_bearing})

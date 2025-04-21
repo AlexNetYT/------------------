@@ -2,7 +2,6 @@ import openpyxl
 
 def fill_excel(file_path, data_list, departure, arrival ):
     wb = openpyxl.load_workbook(file_path)
-    print(wb)
     sheet = wb["Штурманский журнал"]
     sheet['C11'] = departure
     sheet['C12'] = arrival
@@ -14,7 +13,6 @@ def fill_excel(file_path, data_list, departure, arrival ):
         sheet[f"D{row}"] = data.get("wind_degree_m_kts", "")
         sheet[f"E{row}"] = data.get("head_or_tailwind_kts", "")
         sheet[f"H{row}"] = data.get("distance_nm", "")
-    print(file_path)
     new_file_path = f"{departure}-{arrival}.xlsx"
     wb.save(new_file_path)
     return new_file_path
