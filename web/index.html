@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Конвертер Полетов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Конвертер Полетов</h1>
+
+    <div class="input-block">
+        <label>Шаблон (Excel):</label>
+        <input type="file" id="templateFile" accept=".xlsx">
+    </div>
+
+    <div class="input-block">
+        <label>План полета (HTML):</label>
+        <input type="file" id="planFile" accept=".html">
+    </div>
+
+    <div class="input-block">
+        <label>Сохранить в папку:</label>
+        <input type="file" id="saveDir" webkitdirectory directory>
+    </div>
+
+    <button onclick="startConversion()">Конвертировать</button>
+    <p id="status"></p>
+
+    <script src="/eel.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
