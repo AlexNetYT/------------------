@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>VFR</FlightplanType>
+      <CruisingAlt>1500</CruisingAlt>
+      <CruisingAltF>1500.00000000</CruisingAltF>
+      <CreationDate>2025-04-10T21:00:06+03:00</CreationDate>
+      <FileVersion>1.2</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>3.0.12</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="2502">NAVIGRAPH</NavData>
+    <AircraftPerformance>
+      <FilePath>Tupolev Tu154M.lnmperf</FilePath>
+      <Type>T154</Type>
+      <Name>Tupolev Tu154M</Name>
+    </AircraftPerformance>
+    <Waypoints>
+      <Waypoint>
+        <Name>Aerodrom Vatulino</Name>
+        <Ident>URUU</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="36.138718" Lat="55.662361" Alt="644.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>RUZA</Ident>
+        <Type>USER</Type>
+        <Pos Lon="36.200001" Lat="55.700001" Alt="1500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>TUCHKOVO</Ident>
+        <Type>USER</Type>
+        <Pos Lon="36.466667" Lat="55.599998" Alt="1500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>NARO-FOMINSK</Ident>
+        <Type>USER</Type>
+        <Pos Lon="36.666668" Lat="55.366665" Alt="1500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>WP1</Ident>
+        <Type>USER</Type>
+        <Pos Lon="36.720490" Lat="55.323284" Alt="1500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Kamenka</Name>
+        <Ident>WZ</Ident>
+        <Region>UU</Region>
+        <Type>NDB</Type>
+        <Pos Lon="36.994720" Lat="55.221943" Alt="1500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>EDASO</Ident>
+        <Region>UU</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="37.346943" Lat="55.268612" Alt="1500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>VAGDE</Ident>
+        <Region>UU</Region>
+        <Airway>KR488</Airway>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="37.537498" Lat="55.271667" Alt="1500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>UMUDU</Ident>
+        <Region>UU</Region>
+        <Airway>KR488</Airway>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="37.661110" Lat="55.274166" Alt="1500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>OBOPE</Ident>
+        <Region>UU</Region>
+        <Airway>KR488</Airway>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="37.761112" Lat="55.223057" Alt="1500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>ALGOI</Ident>
+        <Region>UU</Region>
+        <Airway>KR488</Airway>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="38.200832" Lat="55.203056" Alt="1500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>KL23 - SATUN</Name>
+        <Ident>SATUN</Ident>
+        <Type>USER</Type>
+        <Pos Lon="38.350277" Lat="55.245834" Alt="1500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>RAGSE</Ident>
+        <Region>UU</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="38.402779" Lat="55.251389" Alt="1500.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Voskresensk Airstrip</Name>
+        <Ident>UUMV</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="38.596298" Lat="55.307827" Alt="496.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>

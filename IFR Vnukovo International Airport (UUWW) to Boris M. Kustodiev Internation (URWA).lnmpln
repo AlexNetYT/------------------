@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LittleNavmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.littlenavmap.org/schema/lnmpln.xsd">
+  <Flightplan>
+    <Header>
+      <FlightplanType>IFR</FlightplanType>
+      <CruisingAlt>33000</CruisingAlt>
+      <CruisingAltF>33000.00000000</CruisingAltF>
+      <CreationDate>2025-02-03T17:23:59+03:00</CreationDate>
+      <FileVersion>1.2</FileVersion>
+      <ProgramName>Little Navmap</ProgramName>
+      <ProgramVersion>3.0.12</ProgramVersion>
+      <Documentation>https://www.littlenavmap.org/lnmpln.html</Documentation>
+    </Header>
+    <SimData>MSFS</SimData>
+    <NavData Cycle="2413">NAVIGRAPH</NavData>
+    <AircraftPerformance>
+      <Type>C172</Type>
+      <Name>Example Performance Profile</Name>
+    </AircraftPerformance>
+    <Procedures>
+      <SID>
+        <Name>EMGA3Z</Name>
+        <Runway>24</Runway>
+      </SID>
+      <STAR>
+        <Name>UP5G</Name>
+        <Runway>09</Runway>
+      </STAR>
+    </Procedures>
+    <Alternates>
+      <Alternate>
+        <Name>Mineralnyye Vody</Name>
+        <Ident>URMM</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="43.083054" Lat="44.226944" Alt="-72.00"/>
+      </Alternate>
+    </Alternates>
+    <Waypoints>
+      <Waypoint>
+        <Name>Vnukovo International Airport</Name>
+        <Ident>UUWW</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="37.273056" Lat="55.599167" Alt="685.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>EMGAS</Ident>
+        <Region>UU</Region>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="37.838612" Lat="54.457779" Alt="24947.95"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>EKTUT</Ident>
+        <Region>UU</Region>
+        <Airway>T828</Airway>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="38.496113" Lat="53.744720" Alt="33000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>GIGDO</Ident>
+        <Region>UU</Region>
+        <Airway>N72</Airway>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="38.931110" Lat="52.389168" Alt="33000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>ABMOM</Ident>
+        <Region>UU</Region>
+        <Airway>N72</Airway>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="39.106667" Lat="52.225555" Alt="33000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>RONUM</Ident>
+        <Region>UU</Region>
+        <Airway>N72</Airway>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="39.219166" Lat="52.119999" Alt="33000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>UMSIS</Ident>
+        <Region>UU</Region>
+        <Airway>N72</Airway>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="39.626667" Lat="51.732224" Alt="33000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>OLBEG</Ident>
+        <Region>UU</Region>
+        <Airway>N72</Airway>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="40.600834" Lat="51.316944" Alt="33000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>RUTUB</Ident>
+        <Region>UU</Region>
+        <Airway>N72</Airway>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="41.009724" Lat="51.075279" Alt="33000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>GEDNI</Ident>
+        <Region>UU</Region>
+        <Airway>N72</Airway>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="41.678333" Lat="50.671391" Alt="33000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>AMUTI</Ident>
+        <Region>UU</Region>
+        <Airway>N72</Airway>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="42.188332" Lat="50.356667" Alt="33000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Sirotinskaya</Name>
+        <Ident>ST</Ident>
+        <Region>UR</Region>
+        <Airway>N72</Airway>
+        <Type>NDB</Type>
+        <Pos Lon="43.679443" Lat="49.258888" Alt="33000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Volgograd</Name>
+        <Ident>WGD</Ident>
+        <Region>UR</Region>
+        <Airway>N72</Airway>
+        <Type>VOR</Type>
+        <Pos Lon="44.343498" Lat="48.780750" Alt="33000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>TUSAB</Ident>
+        <Region>UR</Region>
+        <Airway>N72</Airway>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="44.622223" Lat="48.510555" Alt="33000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>NOKLI</Ident>
+        <Region>UR</Region>
+        <Airway>N72</Airway>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="45.113335" Lat="48.025002" Alt="33000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>DUBOS</Ident>
+        <Region>UR</Region>
+        <Airway>N72</Airway>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="45.698891" Lat="47.234165" Alt="33000.00"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>OLINU</Ident>
+        <Region>UR</Region>
+        <Airway>N72</Airway>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="46.509998" Lat="46.099445" Alt="24196.88"/>
+      </Waypoint>
+      <Waypoint>
+        <Ident>BALEL</Ident>
+        <Region>UR</Region>
+        <Airway>N72</Airway>
+        <Type>WAYPOINT</Type>
+        <Pos Lon="46.612221" Lat="45.953056" Alt="21202.19"/>
+      </Waypoint>
+      <Waypoint>
+        <Name>Boris M. Kustodiev International Airport</Name>
+        <Ident>URWA</Ident>
+        <Type>AIRPORT</Type>
+        <Pos Lon="48.008026" Lat="46.281132" Alt="-72.00"/>
+      </Waypoint>
+    </Waypoints>
+  </Flightplan>
+</LittleNavmap>
