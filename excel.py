@@ -15,6 +15,6 @@ def fill_excel(file_path, data_list, departure, arrival ):
         sheet[f"E{row}"] = data.get("head_or_tailwind_kts", "")
         sheet[f"H{row}"] = data.get("distance_nm", "")
     print(file_path)
-    new_file_path = file_path.replace(".xlsx", f"{departure}-{arrival}.xlsx")
+    new_file_path = f"{departure}-{arrival}.xlsx"
     wb.save(new_file_path)
     return new_file_path
