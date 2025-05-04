@@ -1,0 +1,9 @@
+{
+    "AtisHubUrl": "https://hub.vatis.app/hub",
+    "DigitalAtisApiUrl": "https://datis.clowd.io/api",
+    "NavDataUrl": "https://hub.vatis.app/api/navdata",
+    "TextToSpeechUrl": "https://hub.vatis.app/speech/request",
+    "VatsimStatusUrl": "https://status.vatsim.net/status.json",
+    "VersionUrl": "https://vatis.app/updates",
+    "VoiceListUrl": "https://hub.vatis.app/speech/voices"
+  }
