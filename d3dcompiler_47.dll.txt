@@ -1,0 +1,56 @@
+Microsoft (R) COFF/PE Dumper Version 14.40.33811.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file d3dcompiler_47.dll
+
+File Type: DLL
+
+  Section contains the following exports for D3DCOMPILER_47.dll
+
+    00000000 characteristics
+    66D23DFC time date stamp
+        0.00 version
+           1 ordinal base
+          29 number of functions
+          29 number of names
+
+    ordinal hint RVA      name
+
+          1    0 0016BD00 D3DAssemble
+          4    1 0016BAE0 D3DCompile
+          3    2 0016BB50 D3DCompile2
+          5    3 0016BBC0 D3DCompileFromFile
+          6    4 0016DEA0 D3DCompressShaders
+          7    5 000A0F40 D3DCreateBlob
+          8    6 000A10E0 D3DCreateFunctionLinkingGraph
+          9    7 000A0F70 D3DCreateLinker
+         10    8 0016E190 D3DDecompressShaders
+         13    9 000A0C20 D3DDisassemble
+         11    A 000AE900 D3DDisassemble10Effect
+         12    B 000A0CB0 D3DDisassemble11Trace
+         14    C 000A0C50 D3DDisassembleRegion
+         15    D 0016CEA0 D3DGetBlobPart
+         16    E 0016D290 D3DGetDebugInfo
+         17    F 0016D2F0 D3DGetInputAndOutputSignatureBlob
+         18   10 0016D2B0 D3DGetInputSignatureBlob
+         19   11 0016D2D0 D3DGetOutputSignatureBlob
+         20   12 000A0C80 D3DGetTraceInstructionOffsets
+         21   13 000A0FF0 D3DLoadModule
+         22   14 0016C850 D3DPreprocess
+         23   15 0016A400 D3DReadFileToBlob
+         24   16 000A0CE0 D3DReflect
+         25   17 000A0E00 D3DReflectLibrary
+         26   18 0016E360 D3DReturnFailure1
+         27   19 0016CED0 D3DSetBlobPart
+         28   1A 0016D310 D3DStripShader
+         29   1B 0016A5E0 D3DWriteBlobToFile
+          2   1C 000A1200 DebugSetMute
+
+  Summary
+
+        F000 .data
+        2000 .idata
+       1E000 .reloc
+        1000 .rsrc
+      35F000 .text

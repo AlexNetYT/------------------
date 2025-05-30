@@ -1,0 +1,80 @@
+Microsoft (R) COFF/PE Dumper Version 14.40.33811.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file ffmpeg.dll
+
+File Type: DLL
+
+  Section contains the following exports for ffmpeg.dll
+
+    00000000 characteristics
+           0 time date stamp
+        0.00 version
+           0 ordinal base
+          52 number of functions
+          51 number of names
+
+    ordinal hint RVA      name
+
+          1    0 0004EFF4 av_buffer_create
+          2    1 0004F1F1 av_buffer_get_opaque
+          3    2 0004FCAC av_dict_count
+          4    3 00050093 av_dict_free
+          5    4 0004FCBE av_dict_get
+          6    5 0004FDB2 av_dict_set
+          7    6 0004D9B0 av_force_cpu_flags
+          8    7 00052F50 av_frame_alloc
+          9    8 00053B18 av_frame_clone
+         10    9 0005301E av_frame_free
+         11    A 0005303F av_frame_unref
+         12    B 000549B4 av_free
+         13    C 00058249 av_get_bytes_per_sample
+         14    D 0004D9D2 av_get_cpu_flags
+         15    E 0004E13A av_image_check_size
+         16    F 00008400 av_init_packet
+         17   10 000540BA av_log_set_level
+         18   11 000548F5 av_malloc
+         19   12 000548E8 av_max_alloc
+         20   13 00008520 av_new_packet
+         21   14 00008AB7 av_packet_copy_props
+         22   15 000088C9 av_packet_get_side_data
+         23   16 000084D2 av_packet_unref
+         24   17 000083DB av_rdft_calc
+         25   18 000083E5 av_rdft_end
+         26   19 00008384 av_rdft_init
+         27   1A 00025217 av_read_frame
+         28   1B 00054620 av_rescale_q
+         29   1C 0005827E av_samples_get_buffer_size
+         30   1D 00026C8C av_seek_frame
+         31   1E 00050A6C av_strerror
+         32   1F 000058CB avcodec_align_dimensions
+         33   20 00019589 avcodec_alloc_context3
+         34   21 0000C75E avcodec_decode_video2
+         35   22 00009C30 avcodec_descriptor_get
+         36   23 00009C7F avcodec_descriptor_next
+         37   24 0000113E avcodec_find_decoder
+         38   25 0000DD03 avcodec_flush_buffers
+         39   26 000195C0 avcodec_free_context
+         40   27 00006A92 avcodec_get_name
+         41   28 00005B35 avcodec_open2
+         42   29 000081F0 avcodec_parameters_to_context
+         43   2A 0000C516 avcodec_receive_frame
+         44   2B 0000BCB0 avcodec_send_packet
+         45   2C 00023864 avformat_alloc_context
+         46   2D 0002A8AC avformat_close_input
+         47   2E 00027E6E avformat_find_stream_info
+         48   2F 000244B9 avformat_free_context
+         49   30 00023E7F avformat_open_input
+         50   31 0002D791 avio_alloc_context
+         51   32 0002ED30 avio_close
+
+  Summary
+
+        1000 .00cfg
+      12B000 .data
+       61000 .rdata
+        D000 .reloc
+      1A0000 .text
+        1000 .tls
+        1000 .voltbl

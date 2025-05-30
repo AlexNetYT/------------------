@@ -1,0 +1,112 @@
+Microsoft (R) COFF/PE Dumper Version 14.40.33811.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file libEGL.dll
+
+File Type: DLL
+
+  Section contains the following exports for libEGL.dll
+
+    00000000 characteristics
+           0 time date stamp
+        0.00 version
+           0 ordinal base
+          83 number of functions
+          82 number of names
+
+    ordinal hint RVA      name
+
+         14    0 00001204 eglBindAPI
+         20    1 000011C8 eglBindTexImage
+          7    2 00001000 eglChooseConfig
+         40    3 0000127C eglClientWaitSync
+         33    4 0000107E eglCopyBuffers
+         23    5 0000108D eglCreateContext
+         53    6 00001399 eglCreateDeviceANGLE
+         42    7 0000129A eglCreateImage
+         51    8 0000137B eglCreateImageKHR
+         18    9 00001222 eglCreatePbufferFromClientBuffer
+         10    A 0000109C eglCreatePbufferSurface
+         11    B 000010AB eglCreatePixmapSurface
+         46    C 000012D6 eglCreatePlatformPixmapSurface
+         73    D 00001330 eglCreatePlatformPixmapSurfaceEXT
+         45    E 000012C7 eglCreatePlatformWindowSurface
+         72    F 00001321 eglCreatePlatformWindowSurfaceEXT
+         55   10 000013C6 eglCreateStreamKHR
+         64   11 0000144D eglCreateStreamProducerD3DTextureANGLE
+         38   12 0000125E eglCreateSync
+          9   13 000010BA eglCreateWindowSurface
+         75   14 000014CA eglDebugMessageControlKHR
+         24   15 000010C9 eglDestroyContext
+         43   16 000012A9 eglDestroyImage
+         52   17 0000138A eglDestroyImageKHR
+         56   18 000013D5 eglDestroyStreamKHR
+         12   19 000010D8 eglDestroySurface
+         39   1A 0000126D eglDestroySync
+         82   1B 00001524 eglDupNativeFenceFDANDROID
+          8   1C 000010E7 eglGetConfigAttrib
+          6   1D 000010F6 eglGetConfigs
+         26   1E 0000124F eglGetCurrentContext
+         28   1F 00001105 eglGetCurrentDisplay
+         27   20 00001114 eglGetCurrentSurface
+          2   21 00001123 eglGetDisplay
+          1   22 00001132 eglGetError
+         81   23 00001515 eglGetNativeClientBufferANDROID
+         44   24 000012B8 eglGetPlatformDisplay
+         35   25 00001312 eglGetPlatformDisplayEXT
+         34   26 000013B7 eglGetProcAddress
+         41   27 0000128B eglGetSyncAttrib
+         66   28 0000146B eglGetSyncValuesCHROMIUM
+          3   29 00001141 eglInitialize
+         77   2A 000014E8 eglLabelObjectKHR
+         25   2B 00001150 eglMakeCurrent
+         37   2C 00001303 eglPostSubBufferNV
+         74   2D 00001489 eglPresentationTimeANDROID
+         68   2E 00001498 eglProgramCacheGetAttribANGLE
+         69   2F 000014B1 eglProgramCachePopulateANGLE
+         70   30 000014A7 eglProgramCacheQueryANGLE
+         71   31 000014BB eglProgramCacheResizeANGLE
+         15   32 00001213 eglQueryAPI
+         29   33 0000115F eglQueryContext
+         76   34 000014D9 eglQueryDebugKHR
+         49   35 0000135D eglQueryDeviceAttribEXT
+         50   36 0000136C eglQueryDeviceStringEXT
+         79   37 0000134E eglQueryDisplayAttribANGLE
+         48   38 0000133F eglQueryDisplayAttribEXT
+         58   39 000013F3 eglQueryStreamKHR
+         59   3A 00001402 eglQueryStreamu64KHR
+          5   3B 0000116E eglQueryString
+         80   3C 00001506 eglQueryStringiANGLE
+         13   3D 0000117D eglQuerySurface
+         36   3E 000012F4 eglQuerySurfacePointerANGLE
+         54   3F 000013A8 eglReleaseDeviceANGLE
+         21   40 000011D7 eglReleaseTexImage
+         17   41 00001231 eglReleaseThread
+         78   42 000014F7 eglSetBlobCacheFuncsANDROID
+         57   43 000013E4 eglStreamAttribKHR
+         61   44 00001420 eglStreamConsumerAcquireKHR
+         63   45 0000143E eglStreamConsumerGLTextureExternalAttribsNV
+         60   46 00001411 eglStreamConsumerGLTextureExternalKHR
+         62   47 0000142F eglStreamConsumerReleaseKHR
+         65   48 0000145C eglStreamPostD3DTextureANGLE
+         19   49 000011E6 eglSurfaceAttrib
+         32   4A 0000118C eglSwapBuffers
+         67   4B 0000147A eglSwapBuffersWithDamageKHR
+         22   4C 000011F5 eglSwapInterval
+          4   4D 0000119B eglTerminate
+         16   4E 00001240 eglWaitClient
+         30   4F 000011AA eglWaitGL
+         31   50 000011B9 eglWaitNative
+         47   51 000012E5 eglWaitSync
+
+  Summary
+
+        1000 .00cfg
+        4000 .data
+        F000 .rdata
+        4000 .reloc
+        1000 .rsrc
+       38000 .text
+        1000 .tls
+        1000 .voltbl
